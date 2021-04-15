@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/swiper.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet" />
+    <title>Floristry</title>
+  </head>
+
+  <body>
+    <div class="intro">
+      <header class="header">
+        <div class="container">
+          <div class="header__wrapper">
+            <div class="logo">
+              <a class="logo__link" href="#">
+                <picture>
+                  <source srcset="assets/img/logo-m.png" media="(max-width: 375px)" />
+                  <img class="logo__image" src="assets/img/logo.png" alt="logo" />
+                </picture>
+                <span class="logo-slogan">весна ВСЕГДА</span>
+              </a>
+            </div>
+            <button class="menu-button">меню</button>
+          </div>
+        </div>
+        <nav class="nav">
+          <ul class="catalog__links">
+            <li><a href="#" class="catalog__link">свадебная флористика</a></li>
+            <li>
+              <a href="#" class="catalog__link">букеты на любые мероприятия</a>
+            </li>
+            <li><a href="#" class="catalog__link">композиции</a></li>
+            <li>
+              <a href="#" class="catalog__link">оформление мероприятий</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container">
+        <h1 class="slogan">флористика с душой</h1>
+        <a class="button button--works">смотреть работы</a>
+        <div class="intro__footer">
+          <div class="socials">
+            <a href="">
+              <svg class="fb" width="25" height="25">
+                <use xlink:href="assets/img/socials/sprite.svg#inst"></use>
+              </svg>
+            </a>
+
+            <a href="">
+              <svg class="fb" width="25" height="25">
+                <use xlink:href="assets/img/socials/sprite.svg#fb"></use>
+              </svg>
+            </a>
+
+            <a href="">
+              <svg class="fb" width="25" height="26">
+                <use xlink:href="assets/img/socials/sprite.svg#vk"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="mouse">
+            <svg
+              width="38"
+              height="56"
+              viewBox="0 0 38 56"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="1.20913"
+                y="0.35"
+                width="35.5817"
+                height="55.3"
+                rx="17.7908"
+                fill="#240000"
+                fill-opacity="0.3"
+                stroke="white"
+                stroke-width="0.7"
+              />
+              <path
+                class="mouse__wheel"
+                d="M19 9.4649L19 18.9297"
+                stroke="white"
+                stroke-width="0.7"
+              />
+            </svg>
+          </div>
+          <a class="arrow-down" href="#catalog">
+            <span class="wathch__catalog">смотреть каталог</span>
+            <picture>
+              <source
+                srcset="assets/img/arrow-t.svg"
+                media="(min-width: 321px) and (max-width: 768px)"
+              />
+              <img src="assets/img/arrow.svg" alt="arrow" />
+            </picture>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <section id="catalog" class="catalog">
+      <div class="container">
+        <h2 class="section-title">Каталог услуг</h2>
+        <h2 class="section-title--bg">Каталог услуг</h2>
+
+        <div class="services__wrapper" data-mobile="false">
+          <ul class="services">
+            <li class="services__item">
+              <figure class="services__card">
+                <img src="assets/img/services/services-1.jpg" alt="services-1" />
+                <figcaption>
+                  <h3 class="services__number">01</h3>
+                  <p class="services__title">букет невесты и свадебное оформление</p>
+                  <a class="button button--works">смотреть работы</a>
+                </figcaption>
+                <a href="#" class="services__link"></a>
+              </figure>
+            </li>
+            <li class="services__item">
+              <figure class="services__card">
+                <img src="assets/img/services/services-2.jpg" alt="services-2" />
+                <figcaption>
+                  <h3 class="services__number">02</h3>
+                  <p class="services__title">букеты на торжества</p>
+                  <a class="button button--works">смотреть работы</a>
+                </figcaption>
+                <a href="#" class="services__link"></a>
+              </figure>
+            </li>
+            <li class="services__item">
+              <figure class="services__card">
+                <img src="assets/img/services/services-3.jpg" alt="services-3" />
+                <figcaption>
+                  <h3 class="services__number">03</h3>
+                  <p class="services__title">композиции</p>
+                  <a class="button button--works">смотреть работы</a>
+                </figcaption>
+                <a href="#" class="services__link"></a>
+              </figure>
+            </li>
+            <li class="services__item">
+              <figure class="services__card">
+                <img src="assets/img/services/services-4.jpg" alt="services-4" />
+                <figcaption>
+                  <h3 class="services__number">04</h3>
+                  <p class="services__title">оформление мероприятий</p>
+                  <a href="#" class="button button--works">смотреть работы</a>
+                </figcaption>
+                <a href="#" class="services__link"></a>
+              </figure>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="promo">
+          <div class="promo__text">
+            <h2 class="promo__title">акционные предложения</h2>
+            <p class="promo__about">
+              При заказе свадебного оформления предоставляется скидка на букет невесты и бутоньерку
+              в размере 30%
+            </p>
+            <a href="#" class="button button--order">заказать оформление</a>
+          </div>
+          <img src="assets/img/promo/promo.jpg" alt="" class="promo__image" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <ul class="catalog__links">
+          <li><a class="catalog__link" href="#">Cвадебная флористика</a></li>
+          <li>
+            <a class="catalog__link" href="#">Букеты на любые мероприятия</a>
+          </li>
+          <li><a class="catalog__link" href="#">Букеты невесты</a></li>
+          <li><a class="catalog__link" href="#">Композиции</a></li>
+          <li><a class="catalog__link" href="#">Оформление мероприятий</a></li>
+        </ul>
+        <div class="socials">
+          <a href="">
+            <svg class="fb" width="25" height="25">
+              <use xlink:href="assets/img/socials/sprite.svg#inst"></use>
+            </svg>
+          </a>
+
+          <a href="">
+            <svg class="fb" width="25" height="25">
+              <use xlink:href="assets/img/socials/sprite.svg#fb"></use>
+            </svg>
+          </a>
+
+          <a href="">
+            <svg class="fb" width="25" height="26">
+              <use xlink:href="assets/img/socials/sprite.svg#vk"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/main.js" type="module"></script>
+  </body>
+</html>
